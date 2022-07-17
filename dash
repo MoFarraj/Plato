@@ -1,0 +1,29 @@
+//auto-play sliderImg                                                       //???
+// function autoPlaySliderImg(){
+//     for(let i=0; i < slideCount; i++){
+//         sliderImg[i].classList.remove('active');
+//     }
+//     currentSlider++;
+
+//     if(currentSlider > slideCount){
+//         currentSlider = 1;
+//     }
+//     sliderImg[currentSlider-1].classList.add('active');
+//     setTimeout(autoPlaySliderImg , 5000);
+// }
+// autoPlaySliderImg();
+
+// //auto-play sliderBulltes
+// function autoPlaySliderBullet(){
+//     for(let i=0; i < bulletArray.length; i++){
+//         bulletArray[i].classList.remove('slider-active');
+//     }
+
+//     if(currentSlider > bulletArray.length){
+//         currentSlider = 1;
+//     }
+    
+//     bulletArray[currentSlider-1].classList.add('slider-active');
+//     setTimeout(autoPlaySliderBullet, 5000);
+// }
+// autoPlaySliderBullet();
